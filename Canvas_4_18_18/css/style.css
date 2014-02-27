@@ -1,0 +1,28 @@
+body, p, h1, h2, h3, h4, table, td, th, ul, ol, textarea, input {
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: rgba(100, 145, 250, 0.3);
+    color: #404040;
+    font-size: 1em;
+    margin: 0;
+    width: auto;
+    min-width: 800px;
+}
+
+#canvas {
+	margin: 10px 20px 0px 20px;
+	border: thin solid #AAAAAA;
+	cursor: crosshair;
+}
+
+#controls {
+	margin-left: 15px;
+	padding: 0;
+}
+
+input {
+	width: 100px;
+	border-radius: 5px;
+}
